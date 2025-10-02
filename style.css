@@ -49,9 +49,8 @@
   text-align: center;
   position: relative;
   top: 50px;
-
-
 }
+/* dhanasvi home section end */
 /* footer */
 .footer{
   background-color: black;
@@ -67,15 +66,18 @@
   color: white;
   align-items: center;
   justify-content: center;
+  margin-left: 40%;
+  padding-top: 15px;
 }
 
-/* faq section */
+/* dhanasvi faq section start */
 .faq-section {
   max-width: 800px;
   margin: 50px auto;
   padding: 20px;
   color: #000;
   border-radius: 10px;
+  
 }
 
 .faq-section h2 {
@@ -99,4 +101,4 @@ p {
   line-height: 1.5;
 }
 
-/* dhanasvi home section end */
+
