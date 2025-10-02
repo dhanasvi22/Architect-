@@ -9,7 +9,7 @@
 .navbar {
   width: 100%;
   height: 80px;
-  background: #000000b3;
+  background:black;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -24,13 +24,13 @@
   font-weight: bold;
 }
 
-.nav-links {
+.navlinks {
   list-style: none;
   display: flex;
   gap: 40px;
 }
 
-.nav-links li a {
+.navlinks li a {
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -39,29 +39,23 @@
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: url("./image/home.jpg") no-repeat center center/cover;
+  background: url("./image/garden.jpg") no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   position: relative;
-  
+  top: 80px;
 
-}
-
-/* Overlay effect */
-.hero::after {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.4);
 }
 
 .hero-text {
   position: relative;
   color: white;
-  z-index: 1;
+  z-index: 1000;
+}
+.hero-text:hover{
+  text-shadow: black;
 }
 
 .hero-text h1 {
