@@ -8,7 +8,6 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
@@ -83,7 +82,7 @@ header h2 {
 .buttons .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: #bcdb34;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
