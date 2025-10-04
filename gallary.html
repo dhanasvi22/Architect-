@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architect Gallary</title>
+</head>
+<style>
+    p{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 19px;
+    }
+    h1{
+        background-color: rgb(25, 26, 26);
+        display: flex;
+        color: white;
+        justify-content: center
+    }
+    .imgg{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    
+</style>
+<body>
+    
+    <!-- Gallary section -->
+    <h1>Design Showcase</h1>
+    <p>A glimpse of our creativity in every corner</p>
+
+     <!-- Add some img -->
+     <div class="imgg">
+         <div class="i">
+            <img src="./image/2.jpg" alt="" height="200px">
+            <p>Interior & Exterior</p>
+        </div>
+        
+        <div class="i">
+            <img src="./image/3d img.jpg" alt="" height="200px">
+            <p>3d Space</p>
+        </div>
+
+         <div class="i">
+            <img src="./image/ba.jpg" alt="" height="200px">
+            <p>before after</p>
+        </div>
+
+         <div class="i">
+            <img src="./image/office.jpg" alt="" height="200px">
+            <p>Office Workspace</p>
+        </div>
+
+         <div class="i">
+            <img src="./image/living img.jpg" alt="" height="200px">
+            <p>Furniture</p>
+        </div>
+
+        <div class="i">
+            <img src="./image/garden1.jpg" alt="" height="200px">
+            <p>garden</p>
+        </div>
+    </div>
+    <!-- use marquee tag -->
+    <Marquee behavior="scroll" direction="right">
+        <img src="./image/garden.jpg" alt="">
+        <img src="./image/ba.jpg" alt="">
+        <img src="./image/home.jpg" alt="">
+        <img src="./image/ba.jpg" alt="">
+        <img src="./image/garden.jpg" alt="">
+        <img src="./image/3d e.jpg" alt="">
+    </Marquee> 
+</body>
+</html>
